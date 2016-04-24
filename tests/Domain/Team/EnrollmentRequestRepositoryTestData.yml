@@ -1,0 +1,65 @@
+teams:
+  -
+    id: "2ba95bcc-5076-11e5-a72a-0edf346561b5"
+    city_id: "1d950608-5076-11e5-a72a-0edf346561b5"
+    creator_id: "a61df048-4a18-11e5-98fc-5b4856d52a52"
+    name: "test_1_name"
+    logo_url: "http://test_1.png"
+    introduction: "test_1_introduction"
+    created_at: "2015-08-24 12:29:03"
+    updated_at: "2015-08-24 12:29:03"
+    contact_email: "test_1_contact_email"
+    contact_phone: "test_1_contact_phone"
+    contact_name: "test_1_contact_name"
+    contact_address: "test_1_contact_address"
+requests:
+  -
+    id: "b89c6de4-5076-11e5-a72a-0edf346561b5"
+    requester_id: "a61df048-4a18-11e5-98fc-5b4856d52a52"
+    team_id: "2ba95bcc-5076-11e5-a72a-0edf346561b5"
+    status: 1
+    created_at: "2015-08-24 12:29:03"
+    updated_at: "2015-08-24 12:29:03"
+    type: "team_enrollment"
+  -
+    id: "430c2a8a-5079-11e5-a72a-0edf346561b5"
+    requester_id: "85dd4754-5079-11e5-a72a-0edf346561b5"
+    status: 0
+    created_at: "2015-08-24 12:29:03"
+    updated_at: "2015-08-24 12:29:03"
+    type: "team_enrollment"
+  -
+    id: "230d204c-507c-11e5-a72a-0edf346561b5"
+    requester_id: "a61df048-4a18-11e5-98fc-5b4856d52a52"
+    status: 2
+    created_at: "2015-08-24 12:29:03"
+    updated_at: "2015-08-24 12:29:03"
+    type: "team_enrollment"
+team_enrollment_requests:
+  -
+    id: "b89c6de4-5076-11e5-a72a-0edf346561b5"
+    name: "test_1_name"
+    logo_url: "http://test_1_logo.png"
+    introduction: "test_1_introduction"
+    contact_email: "test_1_contact_email"
+    contact_phone: "test_1_contact_phone"
+    contact_name: "test_1_contact_name"
+    contact_address: "test_1_contact_address"
+  -
+    id: "430c2a8a-5079-11e5-a72a-0edf346561b5"
+    name: "test_2_name"
+    logo_url: "http://test_2_logo.png"
+    introduction: "test_2_introduction"
+    contact_email: "test_2_contact_email"
+    contact_phone: "test_2_contact_phone"
+    contact_name: "test_2_contact_name"
+    contact_address: "test_2_contact_address"
+  -
+    id: "230d204c-507c-11e5-a72a-0edf346561b5"
+    name: "test_3_name"
+    logo_url: "http://test_3_logo.png"
+    introduction: "test_3_introduction"
+    contact_email: "test_3_contact_email"
+    contact_phone: "test_3_contact_phone"
+    contact_name: "test_3_contact_name"
+    contact_address: "test_3_contact_address"

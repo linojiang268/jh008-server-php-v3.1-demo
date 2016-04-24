@@ -1,0 +1,17 @@
+/vendor
+/node_modules
+.env
+
+# eclipse generated meta files
+.settings
+.buildpath
+.project
+
+# mac files
+.DS_STORE
+
+# netbeans files
+/nbproject
+
+# intellij generated meta files
+.idea

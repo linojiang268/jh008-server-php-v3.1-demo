@@ -1,0 +1,36 @@
+teams:
+  -
+    id: "2ba95bcc-5076-11e5-a72a-0edf346561b5"
+    city_id: "1d950608-5076-11e5-a72a-0edf346561b5"
+    creator_id: "a61df048-4a18-11e5-98fc-5b4856d52a52"
+    name: "test_1_name"
+    logo_url: "http://test_1.png"
+    introduction: "test_1_introduction"
+    created_at: "2015-08-24 12:29:03"
+    updated_at: "2015-08-24 12:29:03"
+    contact_email: "test_1_contact_email"
+    contact_phone: "test_1_contact_phone"
+    contact_name: "test_1_contact_name"
+    contact_address: "test_1_contact_address"
+requests:
+  -
+    id: "c09de206-5090-11e5-a72a-0edf346561b5"
+    requester_id: "a61df048-4a18-11e5-98fc-5b4856d52a52"
+    team_id: "2ba95bcc-5076-11e5-a72a-0edf346561b5"
+    status: 1
+    created_at: "2015-08-24 12:29:03"
+    updated_at: "2015-08-24 12:29:03"
+    type: "team_identify"
+team_identify_requests:
+  -
+    id: "c09de206-5090-11e5-a72a-0edf346561b5"
+team_certifications:
+  -
+    id: "5730c752-5090-11e5-a72a-0edf346561b5"
+    url: "http://test_1_certification.png"
+    team_id: "2ba95bcc-5076-11e5-a72a-0edf346561b5"
+    request_id: "c09de206-5090-11e5-a72a-0edf346561b5"
+    type: 0
+    status: 1
+    created_at: "2015-08-24 12:29:03"
+    updated_at: "2015-08-24 12:29:03"
